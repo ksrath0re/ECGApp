@@ -1,0 +1,7 @@
+package libsvm
+
+configurations.maybeCreate("default")
+artifacts.add("default", file('libsvm.jar'))
+dependencies {
+    implementation files('libsvm.jar')
+}
